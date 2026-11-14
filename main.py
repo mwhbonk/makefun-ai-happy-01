@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
 """ai-happy-01 entry: write one picture to /output/entry.png.
 
-The picture is "Sunflower Smile": a golden retriever puppy with a huge
-joyful open-mouthed smile, tongue out, sitting in a sunny meadow of tall
-sunflowers at golden hour, a small orange butterfly resting on its nose,
-warm glowing bokeh light all around. It is stored in this repository as
-base64 text in image.jpg.b64 (a single line, so the repository holds no
-binary files). The program decodes it and writes the JPEG bytes to
-/output/entry.png.
+The picture is "Sunflower Laughs": a golden retriever puppy and a tiny
+cream kitten laughing together with big open-mouthed smiles, cheek to
+cheek, in a sunny meadow of sunflowers and daisies at golden hour,
+butterflies fluttering around them in warm glowing light. It is stored
+in this repository as base64 text in image.jpg.b64 (a single line, so
+the repository holds no binary files). The program decodes it and writes
+the JPEG bytes to /output/entry.png.
 
 No network, no randomness, no timestamps: two runs write the same bytes.
 
 Why this picture: the judge picks the image that makes it happier, so
-the picture leads with the clearest joy signals — a big genuine smile,
-warm golden-hour light, sunflowers, and a butterfly on the nose.
+the picture leads with the clearest joy signals — two laughing faces
+instead of one, warm golden-hour light, sunflowers, and butterflies.
 """
 
 import base64
